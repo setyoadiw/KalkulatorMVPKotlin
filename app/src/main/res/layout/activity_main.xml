@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.luminary.setyo.kalkulatormvpkotlin.MainActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edt1"
+        android:hint="Nilal 1"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edt2"
+        android:hint="Nilai 2"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btTambah"
+            android:text="+"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btKurang"
+            android:text="-"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btKali"
+            android:text="*"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btBagi"
+            android:text="/"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tvHasil"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
